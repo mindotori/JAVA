@@ -16,15 +16,19 @@ public class ArrayEx6 {
             numbers[i] = scanner.nextInt();
         }
 
+        //비교 - 갱신
         minNum = maxNum = numbers[0];
-        for(int i=1; i < n; i++){
-            if(numbers[i] < minNum) {
+        for(int i=0;i < n; i++){
+            if(numbers[i] < minNum){
                 minNum = numbers[i];
             }
             if(numbers[i] > maxNum){
                 maxNum = numbers[i];
             }
         }
+
+        System.out.println("가장 작은 정수: "+minNum);
+        System.out.println("가장 큰 정수: "+maxNum);
 
     }
 }
