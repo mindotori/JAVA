@@ -1,5 +1,2 @@
-# JAVA
-# JAVA
-# JAVA
-# JAVA
-# JAVA
+김영한님의 java 입문 강의 
+
